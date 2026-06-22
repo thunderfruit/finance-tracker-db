@@ -1,0 +1,12 @@
+.env
+*.dump
+/data/
+/exports/
+__pycache__/
+*.pyc
+venv/
+.venv/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
