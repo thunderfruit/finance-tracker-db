@@ -1,5 +1,7 @@
 # 05 — Physical Model
 
+```
+
 CREATE TYPE category_type AS ENUM ('income', 'expense', 'transfer');
 
 CREATE TABLE category (
@@ -29,3 +31,5 @@ CREATE TABLE movement (
     is_recurring       BOOLEAN NOT NULL DEFAULT FALSE,
     transfer_group_id  UUID
 );
+
+```
